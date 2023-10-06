@@ -17,7 +17,7 @@ module fsm
             else    next = IDLE;
       
       READ: begin
-                    rd = '1;
+                    rd   = '1;
                     next = DLY;
             end
     endcase
