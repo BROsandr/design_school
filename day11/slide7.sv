@@ -1,6 +1,6 @@
 snail_moore_fsm i_moore_fsm
         (.en (enable), .a (fsm_in), .y (moore_fsm_out), .*);
-     snail_mealy_fsm i_mealy_fsm
+snail_mealy_fsm i_mealy_fsm
         (.en (enable), .a (fsm_in), .y (mealy_fsm_out), .*);
 
     always_comb
