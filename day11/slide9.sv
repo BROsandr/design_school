@@ -5,6 +5,9 @@ typedef enum bit
     }
     state_e;
     state_e state, next_state;
+
+
+
     // State register
     always_ff @ (posedge clk or posedge rst)
       if (rst)
