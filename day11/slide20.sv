@@ -26,8 +26,7 @@ module fsm
   end
 
   always_ff @(posedge clk or negedge rst_n)
-    if (!rst_n) begin
-      ...
+    if (!rst_n) begin ...
     end else begin
       rd <= n_rd;
       ds <= n_ds;
